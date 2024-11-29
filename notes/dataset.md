@@ -1,9 +1,9 @@
 ## Dataset Preparation
 
 ### KITTI
-Download the data for `velodyne`, `calib`, and `label_02` from KITTI Tracking.
-Unzip the downloaded files.
-Put the unzipped files under the same folder as follows:
+ - Download the data for `velodyne`, `calib`, and `label_02` from KITTI Tracking.
+ - Unzip the downloaded files.
+ - Put the unzipped files under the same folder as follows:
 
 
 ```
@@ -23,8 +23,8 @@ Put the unzipped files under the same folder as follows:
 ---
 
 ### NuScenes
-Download the dataset from the download page.
-Extract the downloaded files and ensure the following structure:
+ - Download the dataset from the download page.
+ - Extract the downloaded files and ensure the following structure:
 ```
 [Parent Folder]
   samples	-	Sensor data for keyframes.
@@ -36,8 +36,10 @@ Note: We use the `train_track` split to train our model and test it with the `va
 ---
 
 ### Waymo Open Dataset
-We follow the benchmark created by LiDAR-SOT based on the Waymo Open Dataset. You can download and process the Waymo dataset as guided by LiDAR-SOT, and use our code to test model performance on this benchmark.
+ - We follow the benchmark created by LiDAR-SOT based on the Waymo Open Dataset. You can download and process the Waymo dataset as guided by LiDAR-SOT, and use our code to test model performance on this benchmark.
 The following processing results are necessary:
+
+```
 [waymo_sot]
      [benchmark]
          [validation]
@@ -56,3 +58,4 @@ The following processing results are necessary:
              Here are some segment.npz files containing raw point cloud data
      [gt_info]
          Here are some segment.npz files containing tracklet and bbox data
+```
