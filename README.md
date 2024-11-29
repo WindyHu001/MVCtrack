@@ -54,18 +54,16 @@ Below are the key dependencies for running MVCTrack:
 
 Clone the repository to your local directory:
 
-```bash
 git clone https://github.com/StiphyJay/MVCTrack.git
-
 
 We recommend using conda to manage the environment.
 
-Step 1: Create and activate a new conda environment
+### Step 1: Create and activate a new conda environment
 
-conda create -n p2p python=3.9
-conda activate p2p
+conda create -n mvc python=3.9
+conda activate mvc
 
-Step 2: Install the key dependencies
+### Step 2: Install the key dependencies
 
 Install PyTorch and related libraries:
 
