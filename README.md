@@ -17,7 +17,7 @@ This repository provides the code for **MVCTrack**, which achieves state-of-the-
 ---
 ## Video
 
-[![Watch the video](https://img.youtube.com/vi/c-OPJ0PvvbA&t=15s/hqdefault.jpg)](https://youtube.com/watch?v=c-OPJ0PvvbA&t=15s)
+[![Watch the video](https://img.youtube.com/vi/c-OPJ0PvvbA&t=15s/hqdefault.jpg)](https://www.youtube.com/watch?v=c-OPJ0PvvbA&t=15s)
 
 
 ## Key Features
