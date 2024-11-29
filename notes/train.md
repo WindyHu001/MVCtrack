@@ -1,4 +1,4 @@
-### Train
+## Train
 - To train a model, you must specify the .py file. The .py file contains all the configurations of the dataset and the model. We provide .py files under the configs directory.
 
 ```
