@@ -66,12 +66,15 @@ conda activate mvc
 ### Step 2: Install the key dependencies
 
 - Install PyTorch and related libraries:
+
 `pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118`
 
 - Install MMCV:
+
 `pip install mmcv==2.0.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.0/index.html`
 
 - Install SpConv:
+
 `pip install spconv-cu118==2.3.6`
 
 ### Additional Notes
