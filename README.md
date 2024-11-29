@@ -46,7 +46,17 @@ An end-to-end 3D SOT tracker that:
 
 
 ---
+## Quick Start
 
+Here are the quick links to the detailed guides:
+
+- [Dataset Preparation](notes/dataset.md): Instructions to prepare datasets like KITTI, NuScenes, and Waymo Open Dataset.
+- [Installation Guide](notes/installation.md): Step-by-step guide to set up the environment and install dependencies.
+- [Testing the Model](notes/test.md): How to evaluate the pretrained model on your dataset.
+- [Training the Model](notes/train.md): Guide to train the model on your dataset.
+- [Virtual Cues](notes/virtual_cues.md): Details about the Multimodal-Guided Virtual Cues Projection (MVCP) module.
+
+---
 ## Acknowledgement
 
 Our implementation is based on [Open3DSOT](https://github.com/Ghostish/Open3DSOT), [BEVTrack](https://github.com/xmm-prio/BEVTrack), [P2P](https://github.com/haooozi/P2P), [MMDetection3D](https://github.com/open-mmlab/mmdetection3d), and [MVP](https://github.com/tianweiy/MVP). Thanks for the great open-source work!
