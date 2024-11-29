@@ -17,7 +17,7 @@ This repository provides the code for **MVCTrack**, which achieves state-of-the-
 ---
 ## Video
  - Please watch this video to know more about our work.
-[![Watch the video](https://img.youtube.com/vi/c-OPJ0PvvbA/hqdefault.jpg)](https://www.youtube.com/watch?v=c-OPJ0PvvbA)
+[![Watch the video](https://img.youtube.com/vi/c-OPJ0PvvbA/maxresdefault.jpg)](https://www.youtube.com/watch?v=c-OPJ0PvvbA)
 
 
 ## Key Features
@@ -42,19 +42,7 @@ An end-to-end 3D SOT tracker that:
 
 
 ---
-## Installation
-Below are the key dependencies for running MVCTrack:
 
-| Dependency | Version  |
-|------------|----------|
-| Python     | 3.9.0    |
-| PyTorch    | 2.0.1    |
-| MMEngine   | 0.7.4    |
-| MMCV       | 2.0.0    |
-| MMDet      | 3.0.0    |
-| MMDet3D    | 1.1.0    |
-| SpConv     | 2.3.6    |
-| YAPF       | 0.40.0   |
 ## Acknowledgement
 
 Our implementation is based on Open3DSOT, BEVTrack, P2P, MMDetection3D and MVP. Thanks for the great open-source work!
