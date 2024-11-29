@@ -6,7 +6,8 @@ Unzip the downloaded files.
 Put the unzipped files under the same folder as follows:
 
 
-```[Parent Folder]   
+```
+[Parent Folder]   
     --> [calib]
     
         --> {0000-0020}.txt
@@ -17,8 +18,8 @@ Put the unzipped files under the same folder as follows:
         
     --> [velodyne]
     
-        --> [0000-0020] folders with velodynes .bin files```
-
+        --> [0000-0020] folders with velodynes .bin files
+```
 ---
 
 ### NuScenes
