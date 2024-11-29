@@ -1,4 +1,4 @@
-### Test
+## Test
 - To test a trained model, specify the checkpoint location with --resume_from argument and set the --phase argument as test.
 ```
 # single-gpu testing
