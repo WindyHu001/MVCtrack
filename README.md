@@ -1,4 +1,6 @@
-# MVCTrack: Boosting 3D Point Cloud Tracking via Multimodal-Guided Virtual Cues
+<h1 align="center" style="color:#6C63FF; font-family:Arial;">
+  🚀 MVCTrack: Boosting 3D Point Cloud Tracking 🚀
+</h1>
 
 **Authors**: Zhaofeng Hu<sup>1†</sup>, Sifan Zhou<sup>2†*</sup>, Shibo Zhao<sup>3</sup>, Zhihang Yuan<sup>4</sup>  
 <sup>1</sup>Stony Brook University, <sup>2</sup>Southeast University, <sup>3</sup>Carnegie Mellon University, <sup>4</sup>Houmo AI  
