@@ -9,8 +9,9 @@
 ---
 
 ## Overview
-
+<p style="background:#F7F7F7; padding:10px; border-radius:5px;">
 MVCTrack is an enhanced framework for **3D single object tracking (3D SOT)** in point clouds, designed to address the limitations of sparse and incomplete LiDAR data. Our approach introduces a **Multimodal-guided Virtual Cues Projection (MVCP)** scheme to enrich sparse point clouds by integrating RGB camera data, significantly improving tracking performance, particularly in scenarios with distant or small objects.
+</p>
 
 ![framework](https://github.com/WindyHu001/MVCtrack/blob/master/figures/backbone.png)
 
