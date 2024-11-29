@@ -33,7 +33,7 @@ An end-to-end 3D SOT tracker that:
 - Evaluated on the large-scale **NuScenes dataset**.
 - Significantly surpasses existing multi-modal 3D trackers.
 - Demonstrates exceptional performance in sparse and occluded scenarios.
-- 
+
 ![framework](https://github.com/WindyHu001/MVCtrack/blob/master/figures/nuScenes.png)
 
 
