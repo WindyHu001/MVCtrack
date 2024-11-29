@@ -4,13 +4,13 @@
 Download the data for `velodyne`, `calib`, and `label_02` from KITTI Tracking.
 Unzip the downloaded files.
 Put the unzipped files under the same folder as follows:
-[Parent Folder]
+`[Parent Folder]
 --> [calib]
     --> {0000-0020}.txt
 --> [label_02]
     --> {0000-0020}.txt
 --> [velodyne]
-    --> [0000-0020] folders with velodynes .bin files
+    --> [0000-0020] folders with velodynes .bin files`
 
 ---
 
