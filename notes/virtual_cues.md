@@ -1,4 +1,4 @@
-### Virtual_cues
+## Virtual_cues
 - You can choose a segmentation model, such as CenterNet2, and generate corresponding virtual clues using the following command.
 
 ```
