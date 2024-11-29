@@ -3,5 +3,5 @@
 
 ```
 # nuScenes
-python virtual_cues/virtual_gen.py --info_path nuScenes_DATA_ROOT/infos_train_10sweeps_withvelo_filter_True.pkl  MODEL.WEIGHTS centernet2_checkpoint.pth 
+python virtual_cues/virtual_gen.py --info_path nuScenes_DATA_ROOT/infos_train_10sweeps_withvelo_filter_True.pkl  MODEL.WEIGHTS your_segmentation_model.pth 
 ```
