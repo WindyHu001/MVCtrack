@@ -15,6 +15,10 @@ MVCTrack is an enhanced framework for **3D single object tracking (3D SOT)** in 
 This repository provides the code for **MVCTrack**, which achieves state-of-the-art performance on the **NuScenes dataset**.
 
 ---
+## Video
+
+[![Watch the video](https://img.youtube.com/watch?v=c-OPJ0PvvbA&t=15s.jpg)](https://youtube.com/watch?v=c-OPJ0PvvbA&t=15s)
+
 
 ## Key Features
 ### **Multimodal-guided Virtual Cues Projection (MVCP)**
@@ -51,39 +55,11 @@ Below are the key dependencies for running MVCTrack:
 | MMDet3D    | 1.1.0    |
 | SpConv     | 2.3.6    |
 | YAPF       | 0.40.0   |
+## Acknowledgement
 
----
+Our implementation is based on Open3DSOT, BEVTrack, P2P, MMDetection3D and MVP. Thanks for the great open-source work!
 
-## Preparation
+## Citation
+If any parts of our paper and code help your research, please consider citing us and giving a star to our repository.
 
-Clone the repository to your local directory:
-
-git clone https://github.com/StiphyJay/MVCTrack.git
-
-We recommend using conda to manage the environment.
-
-### Step 1: Create and activate a new conda environment
-
-conda create -n mvc python=3.9
-conda activate mvc
-
-### Step 2: Install the key dependencies
-
-- Install PyTorch and related libraries:
-
-`pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118`
-
-- Install MMCV:
-
-`pip install mmcv==2.0.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.0/index.html`
-
-- Install SpConv:
-
-`pip install spconv-cu118==2.3.6`
-
-### Additional Notes
-
-- Ensure your system has CUDA 11.8 installed to match the dependencies listed above.
-- Other dependencies like MMEngine, MMDet, MMDet3D, and YAPF will be installed automatically when running the setup or can be installed manually using pip.
-- For detailed instructions on environment setup, please refer to the project documentation.
 
