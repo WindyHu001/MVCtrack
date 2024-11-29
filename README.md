@@ -45,7 +45,7 @@ An end-to-end 3D SOT tracker that:
 
 ## Acknowledgement
 
-Our implementation is based on Open3DSOT, BEVTrack, P2P, MMDetection3D and MVP. Thanks for the great open-source work!
+Our implementation is based on [Open3DSOT](https://github.com/Ghostish/Open3DSOT), [BEVTrack](https://github.com/xmm-prio/BEVTrack), [P2P](https://github.com/haooozi/P2P), [MMDetection3D](https://github.com/open-mmlab/mmdetection3d), and [MVP](https://github.com/tianweiy/MVP). Thanks for the great open-source work!
 
 ## Citation
 If any parts of our paper and code help your research, please consider citing us and giving a star to our repository.
