@@ -35,40 +35,24 @@ An end-to-end 3D SOT tracker that:
 
 ---
 ## Installation
+Below are the key dependencies for running MVCTrack:
 
-We recommend using **conda** to manage the environment.
+| Dependency | Version  |
+|------------|----------|
+| Python     | 3.9.0    |
+| PyTorch    | 2.0.1    |
+| MMEngine   | 0.7.4    |
+| MMCV       | 2.0.0    |
+| MMDet      | 3.0.0    |
+| MMDet3D    | 1.1.0    |
+| SpConv     | 2.3.6    |
+| YAPF       | 0.40.0   |
 
-### Step 1: Create and activate a new conda environment
+---
+
+## Preparation
+
+Clone the repository to your local directory:
+
 ```bash
-conda create -n p2p python=3.9
-conda activate p2p
-Step 2: Install the key dependencies
-Install PyTorch and related libraries:
-bash
-复制代码
-pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118
-Install MMCV:
-bash
-复制代码
-pip install mmcv==2.0.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.0/index.html
-Install SpConv:
-bash
-复制代码
-pip install spconv-cu118==2.3.6
-Additional Notes
-Ensure your system has CUDA 11.8 installed to match the dependencies listed above.
-Other dependencies like MMEngine, MMDet, MMDet3D, and YAPF will be installed automatically when running the setup or can be installed manually using pip.
-For detailed instructions on environment setup, please refer to the project documentation.
-## Installation
-
-### Prerequisites
-- Python 3.8+
-- PyTorch 1.10+
-- CUDA 11.3+
-- Other dependencies listed in `requirements.txt`
-
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/StiphyJay/MVCTrack.git
-   cd MVCTrack
+git clone https://github.com/StiphyJay/MVCTrack.git
